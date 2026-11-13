@@ -234,8 +234,8 @@ main { position: relative; z-index: 10; }
   .block, .block--right { justify-self: start; margin-right: 0; }
   .block--center { justify-self: center; }
   .block::before { inset: -14% -20% -30% -30%; background: radial-gradient(closest-side, rgba(4, 5, 7, .82), rgba(4, 5, 7, 0)); }
-  .display { font-size: clamp(58px, 17.5vw, 120px); }
-  .display--md { font-size: clamp(46px, 13.2vw, 96px); }
+  .display { font-size: clamp(52px, min(17.5vw, 10.5vh), 120px); }
+  .display--md { font-size: clamp(42px, min(13.2vw, 8.5vh), 96px); }
   .list li { grid-template-columns: 96px 1fr; }
   .scrollhint { display: none; }
   .hud { padding-bottom: 16px; gap: 26px; }
